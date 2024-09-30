@@ -2,24 +2,22 @@
     "type": "Config",
     "favicon": "/images/favicon.svg",
     "header": {
-        "title": "TypeScript + MUI Starter",
+        "title": "AndamanMotorHelp",
         "navLinks": [
             {
                 "type": "Link",
                 "label": "Home",
                 "url": "/",
                 "underline": "hover"
-            },
-            {
+            },{
+                "type": "Link",
+                "label": "seva",
+                "url": "/seva",
+                "underline": "hover"
+            },{
                 "type": "Link",
                 "label": "About",
                 "url": "/about",
-                "underline": "hover"
-            },
-            {
-                "type": "Link",
-                "label": "Documentation",
-                "url": "https://docs.netlify.com/visual-editor/overview/",
                 "underline": "hover"
             }
         ]
@@ -30,20 +28,18 @@
             {
                 "type": "Link",
                 "label": "Home",
-                "underline": "hover",
-                "url": "/"
-            },
-            {
+                "url": "/",
+                "underline": "hover"
+            },{
+                "type": "Link",
+                "label": "service",
+                "url": "/seva",
+                "underline": "hover"
+            },{
                 "type": "Link",
                 "label": "About",
-                "underline": "hover",
-                "url": "/about"
-            },
-            {
-                "type": "Link",
-                "label": "Documentation",
-                "underline": "hover",
-                "url": "https://docs.netlify.com/visual-editor/overview/"
+                "url": "/about",
+                "underline": "hover"
             }
         ]
     }

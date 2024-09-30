@@ -3,76 +3,68 @@ title: Home
 type: Page
 sections:
   - type: HeroSection
-    title: Hero Title
-    subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
+    title: Welcome to Andaman Motor Help
+    subtitle: 'Your One-Stop Solution for All Vehicle Services'
     text: >
-      This is the HeroSection component. You can visually edit this component &
-      add more sections while developing locally. [Learn
-      more.](https://docs.netlify.com/visual-editor/local-development/)
+      We provide a range of motor vehicle services, from registration to permits and driving licenses. Our team is dedicated to simplifying your vehicle management needs.
     actions:
       - type: Button
-        label: Start Building
-        url: 'https://docs.netlify.com/visual-editor/get-started/'
+        label: Get Started
+        url: '/seva/get-started'
         size: large
         variant: contained
         color: primary
       - type: Button
-        label: Read the Docs
-        url: 'https://docs.netlify.com/visual-editor/overview/'
+        label: View Services
+        url: '/seva'
         size: large
         variant: outlined
         color: primary
     image:
       type: Image
-      url: /images/hero.svg
-      altText: Hero section image
+      url: /images/hero-motor.svg
+      altText: Hero section image for vehicle services
+
   - type: CardsSection
-    title: Cards Section Component
-    subtitle: Section subtitle here
+    title: Our Core Services
+    subtitle: Explore the range of services we provide
     items:
       - type: Card
-        title: First Card Title
+        title: Road Tax Payment
         image:
           type: Image
-          url: /images/nextjs.svg
-          altText: First item image
+          url: /images/road-tax.svg
+          altText: Road tax service
         text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          We handle road tax payments, including reminders and document submissions.
         actions:
           - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
+            label: Learn More
+            url: '/seva/road-tax'
+
       - type: Card
-        title: Second Card Title
+        title: Vehicle Registration
         image:
           type: Image
-          url: /images/mui-5.svg
-          altText: Second item image
+          url: /images/registration.svg
+          altText: Vehicle registration service
         text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          We assist with the registration process for new and existing vehicles.
         actions:
           - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
+            label: Learn More
+            url: '/seva/vehicle-registration'
+
       - type: Card
-        title: Third Card Title
+        title: Driving License Services
         image:
           type: Image
-          url: /images/ts.svg
-          altText: Third item image
+          url: /images/driving-license.svg
+          altText: Driving license service
         text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          From learner's permits to renewals, we manage all driving license services.
         actions:
           - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
+            label: Learn More
+            url: '/seva/driving-license'
 ---
