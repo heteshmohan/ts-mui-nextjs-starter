@@ -1,42 +1,42 @@
 ---
-title: road-tax
+title: Driving license
 type: Page
 sections:
   - type: HeroSection
-    title: Road Tax Payment Services
-    subtitle: Keep Your Payments Up to Date
+    title: Book your License now..!
+    subtitle: Ready for a drive? Maintain liscense..
     text: >
-      We manage your road tax payments by providing advance alerts, document preparation, and payment processing.
+      We provide your liscence by testing your bperformance of the vehicle with respect to certification.
     actions:
       - type: Button
-        label: Start Payment
-        url: '/road-tax/start'
+        label: Aadhar Verification
+        url: '/driving-license/aadhar-verify'
         size: large
         variant: contained
         color: primary
       - type: Button
-        label: Contact Us
-        url: '/contact'
+        label: PAN Verification
+        url: '/driving-license/pan-verify'
         size: large
         variant: outlined
         color: primary
     image:
       type: Image
       url: /images/road-tax-hero.svg
-      altText: Road tax payment service image
+      altText: KYC Verification image
 
   - type: CardsSection
-    title: How It Works
-    subtitle: Simplifying Your Road Tax Payments
+    title: Status of Verification
+    subtitle: Personal info Verification in Progress
     items:
       - type: Card
         title: Alerts
         text: >
-          We send you timely alerts regarding your road tax payments to ensure you never miss a deadline.
+          Your Verification has been Completed.Happy Driving..!
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/road-tax/alerts'
+            url: '/driving-license/kyc-verify'
 
       - type: Card
         title: Document Preparation

@@ -1,33 +1,33 @@
 ---
-title: road-tax
+title: motor-vehicles
 type: Page
 sections:
   - type: HeroSection
-    title: Road Tax Payment Services
-    subtitle: Keep Your Payments Up to Date
+    title: Motor Vehicle Services
+    subtitle: Services that are provided  in the list are chargable based on the condition of the vehicle
     text: >
-      We manage your road tax payments by providing advance alerts, document preparation, and payment processing.
+      We provide the best service for the customer best satisfaction
     actions:
       - type: Button
-        label: Start Payment
-        url: '/road-tax/start'
+        label: Search
+        url: '/motor-vehicles/state'
         size: large
         variant: contained
         color: primary
       - type: Button
-        label: Contact Us
-        url: '/contact'
+        label: Filter
+        url: '/Bike-model'
         size: large
         variant: outlined
         color: primary
     image:
       type: Image
       url: /images/road-tax-hero.svg
-      altText: Road tax payment service image
+      altText: Service of an basic vehicle
 
   - type: CardsSection
-    title: How It Works
-    subtitle: Simplifying Your Road Tax Payments
+    title:  motor vehicle registration number booking
+    subtitle: Registering your Vehicle in place of govt
     items:
       - type: Card
         title: Alerts
@@ -36,7 +36,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/road-tax/alerts'
+            url: '/registration'
 
       - type: Card
         title: Document Preparation
@@ -55,4 +55,16 @@ sections:
           - type: Button
             label: Learn More
             url: '/seva/road-tax/payment'
+      - type: Card
+        title: Driving License Services
+        image:
+          type: Image
+          url: /images/driving-license.svg
+          altText: Road Tax
+        text: >
+          We assist with obtaining and renewing driving licenses, making it easy for you.
+        actions:
+          - type: Button
+            label: Learn More
+            url: '/road-tax'
 ---

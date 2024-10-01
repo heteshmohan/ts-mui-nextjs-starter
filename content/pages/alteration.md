@@ -4,7 +4,7 @@ type: Page
 sections:
   - type: HeroSection
     title: Personal Vehicle Services
-    subtitle: Comprehensive Solutions for Personal Vehicles
+    subtitle: Alteration for Personal Vehicles
     text: >
       We offer a wide range of services for personal vehicles, including registration, tax payments, ownership transfers, and more. Our goal is to make vehicle management simple and stress-free for you. [Learn more about our services.](https://docs.andamanmotorhelp.com/personal-vehicles)
     actions:
@@ -30,7 +30,7 @@ sections:
     subtitle: Explore our range of personal vehicle services
     items:
       - type: Card
-        title: Vehicle Registration
+        title: Vehicle Alteration
         image:
           type: Image
           url: /images/registration.svg
@@ -40,10 +40,10 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/docs/vehicle-registration'
+            url: '/full-alteration'
       
       - type: Card
-        title: Road Tax Payment
+        title: Parts alteration
         image:
           type: Image
           url: /images/road-tax.svg
@@ -53,7 +53,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/docs/road-tax'
+            url: '/part-alteration'
       
       - type: Card
         title: Ownership Transfer

@@ -1,16 +1,16 @@
 ---
-title: road-tax
+title: fancy-number
 type: Page
 sections:
   - type: HeroSection
-    title: Road Tax Payment Services
+    title: Fancy / choice registration number booking
     subtitle: Keep Your Payments Up to Date
     text: >
       We manage your road tax payments by providing advance alerts, document preparation, and payment processing.
     actions:
       - type: Button
         label: Start Payment
-        url: '/road-tax/start'
+        url: '/seva/road-tax/start'
         size: large
         variant: contained
         color: primary
@@ -36,7 +36,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/road-tax/alerts'
+            url: '/road-tax/alerts'
 
       - type: Card
         title: Document Preparation

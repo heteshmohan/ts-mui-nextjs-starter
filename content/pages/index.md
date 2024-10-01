@@ -40,7 +40,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/road-tax'
+            url: '/road-tax'
 
       - type: Card
         title: Vehicle Registration
@@ -53,7 +53,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/vehicle-registration'
+            url: '/vehicle-registration'
 
       - type: Card
         title: Driving License Services

@@ -34,7 +34,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/road-tax'
+            url: '/road-tax'
       
       - type: Card
         title: Vehicle Registration
@@ -46,8 +46,45 @@ sections:
           Our team assists with vehicle registrations, ensuring a smooth process from start to finish.
         actions:
           - type: Button
+            label: Learn More 
+            url: '/vehicle-registration'
+
+      - type: Card
+        title: Renewal Registry
+        image:
+          type: Image
+          url: /images/registration.svg
+          altText: Vehicle Renewal service
+        text: >
+          Our team assists with vehicle registration renewals, ensuring a smooth process from start to finish.
+        actions:
+          - type: Button
+            label: Learn More 
+            url: '/vehicle-renewal'
+
+      - type: Card
+        title: Commercial-Purpose
+        image:
+          type: Image
+          url: /images/road-tax.svg
+          altText: Commercial vehicle service
+        actions:
+          - type: Button
+            label: View
+            url: '/commercial-purpose'
+
+      - type: Card
+        title: Alter your Vehicle(personal/Professional)
+        image:
+          type: Image
+          url: /images/driving-license.svg
+          altText: Driving license services
+        text: >
+          We assist with obtaining and renewing driving licenses, making it easy for you.
+        actions:
+          - type: Button
             label: Learn More
-            url: '/seva/vehicle-registration'
+            url: '/alteration'     
 
       - type: Card
         title: Driving License Services
@@ -60,7 +97,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/driving-license'
+            url: '/driving-license'
 
   - type: FormSection
     title: Contact Us
