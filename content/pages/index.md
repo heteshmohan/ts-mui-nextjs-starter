@@ -66,5 +66,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/driving-license'
+            url: '/driving-license'
+            
+
 ---

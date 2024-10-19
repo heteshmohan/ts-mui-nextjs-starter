@@ -10,7 +10,7 @@ sections:
     actions:
       - type: Button
         label: Search
-        url: '/motor-vehicles/state'
+        url: '/motor-vehicles'
         size: large
         variant: contained
         color: primary
@@ -45,7 +45,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/road-tax/documents'
+            url: '/motor-vehicles/documents'
 
       - type: Card
         title: Payment Processing
@@ -54,7 +54,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/seva/road-tax/payment'
+            url: '/motor-vehicles/payment'
       - type: Card
         title: Driving License Services
         image:
@@ -67,4 +67,6 @@ sections:
           - type: Button
             label: Learn More
             url: '/road-tax'
----
+       - type: Card
+         title : NOC Application
+         url : '/noc-issue'

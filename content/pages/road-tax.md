@@ -20,10 +20,7 @@ sections:
         size: large
         variant: outlined
         color: primary
-    image:
-      type: Image
-      url: /images/road-tax-hero.svg
-      altText: Road tax payment service image
+    
 
   - type: CardsSection
     title: How It Works

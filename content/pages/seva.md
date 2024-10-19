@@ -84,8 +84,35 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            url: '/alteration'     
-
+            url: '/alteration' 
+      - type: Card
+        title: Hypothecation (Addition/Cancellation)
+        image:
+          type: Image
+          url: /images/driving-license.svg
+          altText: Addition of vehicle to customer id
+        text: >
+          We assist with obtaining and renewing driving licenses, making it easy for you.
+        actions:
+          - type: Button
+            label: Learn More
+            url: '/hypothecation' 
+ 
+      - type: Card
+        title: Registration Certificate-Download
+        actions:
+          - type: Button
+            label: Learn More
+            url: '/rc-download'
+            
+      - type: Card
+        title: N.O.C permit
+        actions:
+          - type: Button
+            label: Learn More
+            url: '/noc-issue'
+       
+    
       - type: Card
         title: Driving License Services
         image:
@@ -98,27 +125,5 @@ sections:
           - type: Button
             label: Learn More
             url: '/driving-license'
-
-  - type: FormSection
-    title: Contact Us
-    subtitle: We’d love to hear from you!
-    fields:
-      - type: TextField
-        name: name
-        label: Your Name
-        required: true
-      - type: TextField
-        name: email
-        label: Your Email
-        required: true
-        inputType: email
-      - type: TextArea
-        name: message
-        label: Your Message
-        required: true
-        rows: 4
-    actions:
-      - type: Button
-        label: Send Message
-        url: '/send-message'
+            
 ---

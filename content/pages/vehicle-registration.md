@@ -55,4 +55,32 @@ sections:
           - type: Button
             label: Learn More
             url: '/fancy-number'
+
+      - type: Card
+        title: Hypothecation (Addition/Cancellation)
+        image:
+          type: Image
+          url: /images/driving-license.svg
+          altText: Addition of vehicle to customer id
+        text: >
+          We assist with obtaining and renewing driving licenses, making it easy for you.
+        actions:
+          - type: Button
+            label: Learn More
+            url: '/hypothecation'
+
+      - type: Card
+        title: Download R.C
+        image:
+          type: Image
+          url: /images/driving-license.svg
+          altText: Download your Registration Certificate
+        text: >
+          We assist with obtaining and renewing Registration Certificate
+        actions:
+          - type: Button
+            label: Download 
+            url: '/rc-download'
+          
+     
 ---
